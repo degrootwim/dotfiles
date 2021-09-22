@@ -3,6 +3,7 @@
       relink: true
 - clean: ["~"]
 - link:
-    ~/.zshrc: zshrc
+    ~/.zshrc:
+    ~/.gitconfig:
 - create:
     - ~/Shed
