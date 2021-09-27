@@ -1,3 +1,6 @@
+# Variables
+export HOMEBREW_CASK_OPTS="--no-quarantine"
+
 # Aliasses
 alias l='ls -lAFh'
 alias k=kubectl
