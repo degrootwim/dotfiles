@@ -20,7 +20,7 @@ The dotfiles in this git repository are used to automate the instalation proces 
 
 ```sh
 xcode-select --install && \
-git clone git@github.com:degrootwim/dotfiles.git .dotfiles && \
+git git@github.com:wim-de-groot/dotfiles.git .dotfiles && \
 .dotfiles/install
 ```
 
