@@ -3,3 +3,6 @@
 	email = 34519486+degrootwim@users.noreply.github.com
 [init]
 	defaultBranch = main
+[pull]
+	rebase = true
+	ff = only
