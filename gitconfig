@@ -1,8 +1,9 @@
-[user]
-	name = Wim de Groot
-	email = 34519486+degrootwim@users.noreply.github.com
-[init]
-	defaultBranch = main
+[includeIf "gitdir:~/Factory/"]
+    path = ~/.gitconfig_factory
+[includeIf "gitdir:~/Shed/"]
+    path = ~/.gitconfig_shed
+[includeIf "gitdir:~/.dotfiles/"]
+    path = ~/.gitconfig_shed
 [pull]
 	rebase = true
 	ff = only

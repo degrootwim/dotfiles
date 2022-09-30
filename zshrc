@@ -1,26 +1,16 @@
 # Variables
+export NONINTERACTIVE=true
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
 
-# Aliasses
-alias l='ls -lAFh'
-alias k=kubectl
-alias gst='git status'
+# Alias
+alias dotbot="~/.dotfiles/install"
 
-# Prompt
-PROMPT='
-%1~ %L %# '
+# Antigen
+source $(brew --prefix)/share/antigen/antigen.zsh
 
-RPROMPT='%*'
+# Sdkman
+[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
 
-# Functions
-function mkcd() {
-    mkdir -p "$@" && cd "$_";
-}
-
-function ksn() {
-    kubectl config set-context --current --namespace=$1
-}
-
-function ksc() {
-    kubectl config use-context $1
-}
+# Init antigen
+antigen init ~/.antigenrc
