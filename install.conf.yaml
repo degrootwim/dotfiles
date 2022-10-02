@@ -2,13 +2,14 @@
     link:
       relink: true
 - clean: ["~"]
+- create:
+    - ~/bin
+    - ~/Shed
+    - ~/.antigen/bundles/robbyrussell/oh-my-zsh/cache//completions/
 - link:
     ~/.zshrc:
     ~/.antigenrc:
     ~/.gitconfig:
-- create:
-    - ~/Shed
-    - ~/.antigen/bundles/robbyrussell/oh-my-zsh/cache//completions/
 - shell:
     - [source ~/.zshrc, Loading zshrc file]
     - [./setup_homebrew.zsh, Installing Homebrew and packages]

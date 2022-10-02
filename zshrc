@@ -1,11 +1,8 @@
 # Variables
 export NONINTERACTIVE=true
-export PATH=$HOME/bin:$PATH
+export PATH=~/bin:$PATH
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
-
-# Alias
-alias dotbot="~/.dotfiles/install"
 
 # Antigen
 source $(brew --prefix)/share/antigen/antigen.zsh

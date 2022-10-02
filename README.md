@@ -4,7 +4,7 @@ This repository contains the dotfiles for a MacOS machine.
 
 ## Description
 
-The dotfiles in this git repository are used to automate the instalation proces of a machine with MacOS as much as possible.
+The dotfiles in this git repository are used to automate the installation process of a machine with MacOS as much as possible.
 
 ## Getting Started
 
@@ -20,7 +20,7 @@ The dotfiles in this git repository are used to automate the instalation proces 
 
 ```sh
 xcode-select --install && \
-git git@github.com:wim-de-groot/dotfiles.git .dotfiles && \
+git clone git@github.com:wim-de-groot/dotfiles.git .dotfiles && \
 .dotfiles/install
 ```
 
