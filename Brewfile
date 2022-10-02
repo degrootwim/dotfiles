@@ -13,9 +13,9 @@ brew "sdkman-cli"
 brew "thefuck"
 
 # Casks
+cask "balenaetcher"
 cask "docker"
+cask "discord"
 cask "firefox"
-cask "intellij-idea"
-cask "microsoft-teams"
-cask "microsoft-outlook"
-cask "openvpn-connect"
+cask "minecraft"
+cask "intellij-idea-ce"
