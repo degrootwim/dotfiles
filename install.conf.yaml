@@ -6,13 +6,10 @@
     ~/.zshrc:
     ~/.antigenrc:
     ~/.gitconfig:
-    ~/.gitconfig_shed:
-    ~/.gitconfig_factory:
 - create:
     - ~/Shed
-    - ~/Factory
     - ~/.antigen/bundles/robbyrussell/oh-my-zsh/cache//completions/
 - shell:
-    - command: source ~/.zshrc
-    - command: ./setup_homebrew.zsh
-    - command: ./setup_sdks.zsh
+    - [source ~/.zshrc, Loading zshrc file]
+    - [./setup_homebrew.zsh, Installing Homebrew and packages]
+    - [./setup_sdks.zsh, Installing SDK's]
