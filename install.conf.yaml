@@ -2,17 +2,25 @@
     link:
       relink: true
 - clean: ["~"]
+- create:
+    - ~/bin
+    - ~/lib
+    - ~/Shed
+    - ~/Factory
+    - ~/.antigen/bundles/robbyrussell/oh-my-zsh/cache//completions/
 - link:
     ~/.zshrc:
     ~/.antigenrc:
     ~/.gitconfig:
     ~/.gitconfig_shed:
     ~/.gitconfig_factory:
-- create:
-    - ~/Shed
-    - ~/Factory
-    - ~/.antigen/bundles/robbyrussell/oh-my-zsh/cache//completions/
 - shell:
     - command: source ~/.zshrc
+      stdout: true
+      stderr: true
     - command: ./setup_homebrew.zsh
+      stdout: true
+      stderr: true
     - command: ./setup_sdks.zsh
+      stdout: true
+      stderr: true
