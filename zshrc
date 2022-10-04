@@ -1,5 +1,7 @@
+# Brew
+[[ -s "/opt/homebrew/bin/brew" ]] && eval $(/opt/homebrew/bin/brew shellenv)
+
 # Variables
-export NONINTERACTIVE=true
 export PATH=$HOME/bin:$PATH
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
