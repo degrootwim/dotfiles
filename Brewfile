@@ -11,8 +11,10 @@ brew "coreutils"
 brew "kustomize"
 brew "sdkman-cli"
 brew "thefuck"
+brew "watch"
 
 # Casks
+cask "citrix-workspace"
 cask "docker"
 cask "firefox"
 cask "intellij-idea"
