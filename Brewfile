@@ -1,4 +1,4 @@
-# Taps
+#Taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
@@ -16,5 +16,7 @@ brew "thefuck"
 cask "balenaetcher"
 cask "docker"
 cask "discord"
+cask "goland"
 cask "minecraft"
+cask "obsidian"
 cask "intellij-idea-ce"
