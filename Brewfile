@@ -17,6 +17,7 @@ brew "vault"
 brew "hashicorp/tap/terraform"
 brew "tree"
 brew "jq"
+brew "velero"
 
 # Casks
 cask "citrix-workspace"
@@ -26,4 +27,5 @@ cask "intellij-idea"
 cask "microsoft-teams"
 cask "microsoft-outlook"
 cask "microsoft-powerpoint"
+cask "obsidian"
 cask "openvpn-connect"
