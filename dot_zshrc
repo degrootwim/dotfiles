@@ -1,6 +1,2 @@
-# Variables
-export NONINTERACTIVE=true
-export HOMEBREW_CASK_OPTS="--no-quarantine"
-
 eval "$(starship init zsh)"
 eval "$(atuin init zsh)"
