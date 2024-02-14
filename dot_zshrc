@@ -1,2 +1,5 @@
+SAVEHIST=0
+HISTSIZE=0
+
 eval "$(starship init zsh)"
 eval "$(atuin init zsh)"
