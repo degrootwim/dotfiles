@@ -1,5 +1,6 @@
 SAVEHIST=0
 HISTSIZE=0
+LESSHISTSIZE=0
 
 eval "$(starship init zsh)"
 eval "$(atuin init zsh)"
