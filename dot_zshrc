@@ -10,4 +10,4 @@ alias ls="eza -al --icons"
 eval "$(starship init zsh)"
 eval "$(atuin init zsh)"
 
-STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
