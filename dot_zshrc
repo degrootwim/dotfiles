@@ -2,7 +2,7 @@ SAVEHIST=0
 HISTSIZE=0
 LESSHISTSIZE=0
 LESSHISTFILE=-
-STARSHIP_CONFIG="~/.config/starship/starship.toml"
+STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 
 alias vi=nvim
 alias vim=nvim
