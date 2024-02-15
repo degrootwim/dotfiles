@@ -22,3 +22,19 @@ packages:
       - docker
       - obsidian
       - wezterm
+  linux:
+    - ack
+    - atuin
+    - bat
+    - chezmoi
+    - eza
+    - fd
+    - fzf
+    - htop
+    - jq
+    - neovim
+    - rg
+    - slides
+    - starship
+    - zellij
+    

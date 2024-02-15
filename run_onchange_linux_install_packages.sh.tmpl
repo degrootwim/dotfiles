@@ -1,0 +1,8 @@
+{{ if eq .chezmoi.os "linux" -}}
+#!/bin/zsh
+
+{{ range .packages.linux.brews -}}
+apt install {{ . }}
+{{ end -}}
+{{ end -}}
+
