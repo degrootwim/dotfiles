@@ -3,11 +3,11 @@ HISTSIZE=0
 LESSHISTSIZE=0
 LESSHISTFILE=-
 
-export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
-
 alias vi=nvim
 alias vim=nvim
 alias ls="eza -al --icons"
 
 eval "$(starship init zsh)"
 eval "$(atuin init zsh)"
+
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
