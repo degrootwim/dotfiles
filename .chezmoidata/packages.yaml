@@ -13,6 +13,7 @@ packages:
     - htop
     - jq
     - neovim
+    - node
     - rg
     - slides
     - starship
