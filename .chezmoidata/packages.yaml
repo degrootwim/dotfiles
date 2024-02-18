@@ -6,6 +6,7 @@ packages:
     - atuin
     - bat
     - chezmoi
+    - diff-so-fancy
     - eza
     - fd
     - fzf
