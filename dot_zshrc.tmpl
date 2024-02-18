@@ -10,4 +10,8 @@ alias ls="eza -al --icons"
 eval "$(starship init zsh)"
 eval "$(atuin init zsh)"
 
+{{ if eq .chezmoi.os "linux" -}}
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+{{ end -}}
+
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
