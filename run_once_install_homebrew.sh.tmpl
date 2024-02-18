@@ -4,13 +4,9 @@
 
 {{ if eq .chezmoi.osRelease.id "debian" }}
 apt-get install build-essential procps curl file git
-{{ end -}}
-
 {{ else if eq .chezmoi.osRelease.id "fedora" }}
 yum groupinstall 'Development Tools'
 yum install procps-ng curl file git
-{{ end -}}
-
 {{ else if eq .chezmoi.osRelease.id "arch" }}
 pacman -S base-devel procps-ng curl file git
 {{ end -}}

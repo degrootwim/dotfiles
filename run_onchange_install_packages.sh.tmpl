@@ -7,9 +7,7 @@ tap {{ . | quote }}
 {{ range .packages.brews -}}
 brew {{ . | quote }}
 {{ end -}}
-{{- if not $codespaces }}
 {{ range .packages.casks -}}
 cask {{ . | quote }}
 {{ end -}}
-{{- end }}
 EOF
