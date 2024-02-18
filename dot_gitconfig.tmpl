@@ -1,2 +1,6 @@
 [user]
-    email = "34519486+wim-de-groot@users.noreply.github.com" 
+    name = {{ .name | quote }}
+    email = {{ .email | quote }} 
+[pull]
+    rebase = true
+    ff = only
