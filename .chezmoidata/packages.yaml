@@ -1,24 +1,23 @@
 packages:
-  darwin:
-    taps:
-      - homebrew/bundle 
-    brews:
-      - ack
-      - atuin
-      - bat
-      - chezmoi
-      - eza
-      - fd
-      - fzf
-      - htop
-      - jq
-      - neovim
-      - rg
-      - slides
-      - starship
-      - zellij
-    casks:
-      - discord
-      - docker
-      - obsidian
-      - wezterm
+  taps:
+    - homebrew/bundle 
+  brews:
+    - ack
+    - atuin
+    - bat
+    - chezmoi
+    - eza
+    - fd
+    - fzf
+    - htop
+    - jq
+    - neovim
+    - rg
+    - slides
+    - starship
+    - zellij
+  casks:
+    - discord
+    - docker
+    - obsidian
+    - wezterm

@@ -1,0 +1,11 @@
+{{- $codespaces:= env "CODESPACES" | not | not -}}
+
+[data]
+    codespaces = {{ $codespaces }}
+{{- if $codespaces }}
+    name = "Wim de Groot"
+    email = "your@email.com"
+{{- else }}
+    name = {{ promptString "name" | quote }}
+    email = {{ promptString "email" | quote }}
+{{- end }}
