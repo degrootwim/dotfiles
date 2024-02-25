@@ -11,6 +11,11 @@ tap {{ . | quote }}
 {{ range .packages.brews -}}
 brew {{ . | quote }}
 {{ end -}}
+{{ if .codespaces -}}
+{{ range .packages.codespaces -}}
+brew {{ . | quote }}
+{{ end -}}
+{{ end -}}
 {{ if eq .chezmoi.os "darwin" -}}
 {{ range .packages.casks -}}
 cask {{ . | quote }}

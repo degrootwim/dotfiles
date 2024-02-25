@@ -23,3 +23,5 @@ packages:
     - docker
     - obsidian
     - wezterm
+  codespaces:
+    - rust
