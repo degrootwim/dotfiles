@@ -15,13 +15,15 @@ packages:
     - neovim
     - node
     - rg
+    - rust
     - slides
     - starship
     - zellij
+    - zig
   casks:
     - discord
     - docker
     - obsidian
     - wezterm
   codespaces:
-    - rust
+
