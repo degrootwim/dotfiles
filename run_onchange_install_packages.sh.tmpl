@@ -20,5 +20,10 @@ brew {{ . | quote }}
 {{ range .packages.casks -}}
 cask {{ . | quote }}
 {{ end -}}
+{{ if .include.games -}}
+{{ range .packages.games -}}
+cask {{ . | quote }}
+{{ end -}}
+{{ end -}}
 {{ end -}}
 EOF

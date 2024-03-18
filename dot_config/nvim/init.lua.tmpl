@@ -72,7 +72,9 @@ require('lazy').setup({
   -- Git related plugins
   'tpope/vim-fugitive',
   'tpope/vim-rhubarb',
+  {{ if .include.copilot -}}
   'github/copilot.vim',
+  {{ end -}}
   'ziglang/zig.vim',
 
   -- Detect tabstop and shiftwidth automatically

@@ -5,9 +5,13 @@
 {{- if $codespaces }}
     name = "Wim de Groot"
     email = "your@email.com"
+    include.copilot = false
+    include.games = false
 {{- else }}
     name = {{ promptString "name" | quote }}
     email = {{ promptString "email" | quote }}
+    include.copilot = {{ promptBool "enable copilot?" }}
+    include.games = {{ promptBool "enable games?" }}
 {{- end }}
 [diff]
     pager = "diff-so-fancy"

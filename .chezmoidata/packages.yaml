@@ -10,8 +10,10 @@ packages:
     - eza
     - fd
     - fzf
+    - helm
     - htop
     - jq
+    - k9s
     - neovim
     - node
     - rg
@@ -26,4 +28,6 @@ packages:
     - obsidian
     - wezterm
   codespaces:
+  games:
+    - minecraft
 
