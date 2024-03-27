@@ -20,6 +20,7 @@ packages:
     - rust
     - slides
     - starship
+    - yq
     - zellij
     - zig
   casks:
