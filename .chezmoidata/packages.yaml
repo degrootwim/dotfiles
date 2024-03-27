@@ -14,6 +14,7 @@ packages:
     - htop
     - jq
     - k9s
+    - kustomize
     - neovim
     - node
     - rg
