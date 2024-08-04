@@ -1,16 +1,9 @@
-SAVEHIST=0
-HISTSIZE=0
-LESSHISTSIZE=0
-LESSHISTFILE=-
-
-alias vi=nvim
-alias vim=nvim
-alias ls="eza -al --icons"
+source "$HOME/.config/aliases/config"
+source "$HOME/.config/exports/config"
 
 {{ if eq .chezmoi.os "linux" -}}
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 {{ end -}}
+
 eval "$(starship init zsh)"
 eval "$(atuin init zsh)"
-
-export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"

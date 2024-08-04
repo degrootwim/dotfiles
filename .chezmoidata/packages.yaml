@@ -10,6 +10,7 @@ packages:
     - eza
     - fd
     - fzf
+    - go
     - helm
     - htop
     - jq
@@ -26,7 +27,6 @@ packages:
     - zig
   casks:
     - discord
-    - docker
     - obsidian
     - wezterm
   codespaces:
